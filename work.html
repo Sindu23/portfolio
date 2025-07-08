@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- nav-bar -->
+    <nav>
+        <div class="logo">
+            <img src="assests/logo.png" alt="">
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About me</a>
+            <a href="work.html">Work</a>
+        </div>
+        <div class="connect">
+            <a href="mailto:chinthakayalasindu@gmail.com"><img src="assests/arrow.png" alt="">Let's connect</a>
+        </div> 
+    </nav>
+    <div id="cursor"></div>
+    <main>
+        <section class="work-section">
+            <div class="work-head">
+                <div class="text" id="work">Work</div>
+            </div>
+            <div class="project">
+                <div class="pro-img">
+                    <a href="#work">
+                        <img src="assests/Project1.png" alt="Project Screenshot" class="project-image" />
+                    </a>
+                </div>
+                <div class="pro-content">
+                    <h3>Biker's Brand Website</h3>
+                    <div class="pro-sub">JavaScript, HTML, CSS, GSAP</div>
+                    <div class="pro-description">
+                        Delivered a responsive, animated biker brand website with GSAP, tailored to client's vision and optimized for all devices.
+                    </div>
+                    <button class="allbtn" id="pro-btn">
+                        <a href="https://falconandflares.in/" target="_blank"><img src="assests/arrow.png" alt="Icon" class="icon">
+                            View project</a>
+                    </button>
+                </div>
+            </div>
+            <div class="project">
+                <div class="pro-img">
+                    <a href="#work">
+                        <img src="assests/Project2.png" alt="Project Screenshot" class="project-image" />
+                    </a>
+                </div>
+                <div class="pro-content">
+                    <h3>Profile Mapper</h3>
+                    <div class="pro-sub">React.js, Tailwind CSS, Google Maps API</div>
+                    <div class="pro-description">
+                        Developed a React and Tailwind-based user profile manager with Google Maps integration and full admin CRUD functionality
+                    </div>
+                    <button class="allbtn" id="pro-btn">
+                        <a href="https://profilemapperv1.netlify.app/" target="_blank"><img src="assests/arrow.png" alt="Icon" class="icon">
+                            View project</a>
+                    </button>
+                </div>
+            </div>
+            <div class="project">
+                <div class="pro-img">
+                    <a href="#work">
+                        <img src="assests/Project3.png" alt="Project Screenshot" class="project-image" />
+                    </a>
+                </div>
+                <div class="pro-content">
+                    <h3>AI Chatbot Web App</h3>
+                    <div class="pro-sub">React.js, Tailwind CSS, Web Speech API</div>
+                    <div class="pro-description">
+                        Built an AI Chatbot Web App using React and Tailwind with voice input (Web Speech API), dark/light mode, and Markdown-based response rendering.
+                    </div>
+                    <button class="allbtn" id="pro-btn">
+                        <a href="https://chatbot-aiv1.netlify.app/" target="_blank"><img src="assests/arrow.png" alt="Icon" class="icon">
+                            View project</a>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- <section class="contact-section">
+            <div class="contact-head">
+                <div class="text" id="contact">Contact</div>
+                <div class="text" id="mee">Me</div>
+            </div>
+            <div class="form">
+                <form action="#">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="fname">First Name:</label>
+                            <input type="text" id="fname" placeholder="Enter First Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lname">Last Name:</label>
+                            <input type="text" id="lname" placeholder="Enter Last Name" required>
+                        </div>
+                    </div>
+            
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" placeholder="Email@example.com" required>
+                        </div>
+                    </div>
+            
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="message">Your Message (required):</label>
+                            <textarea id="message" rows="5" placeholder="Write your Message here..." required></textarea>
+                        </div>
+                    </div>
+                    <button class="allbtn" id="pro-btn">
+                        <a href="#/work"><img src="assests/arrow.png" alt="Icon" class="icon">
+                            Submit request</a>
+                    </button>
+                </form>
+            </div>
+        </section> -->
+    </main>
+    <footer class="footer">
+        <div class="footer-nav">
+            <ul class="footer-nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About me</a></li>
+                <li><a href="work.html">Work</a></li>
+            </ul>
+            <ul class="footer-cv">
+                <li><a href="assests/sindu cv.pdf" target="_blank"><img src="assests/arrow.png" alt="">Download CV</a></li>
+                <li><a href="contact.html"><img src="assests/arrow.png" alt="">Hire me</a></li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <span>Developed by Sindu Prasanna</span> | 
+        <span>All rights reserved © 2024</span>
+        </div>
+    </footer>
+  
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" 
+    integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" 
+    integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
+</body>
+</html>
